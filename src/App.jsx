@@ -1,12 +1,10 @@
-import "./App.css";
+import React from "react";
 import MemoryGame from "./components/memoryGame";
 
-function App() {
-  return (
-    <>
-      <MemoryGame />
-    </>
-  );
-}
+const App = () => (
+  <div>
+    <MemoryGame />
+  </div>
+);
 
 export default App;
